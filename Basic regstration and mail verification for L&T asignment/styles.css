@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://th.bing.com/th/id/R.c95f39ccf985aa433ff8bd9f59ccf011?rik=msR5ktr3SDYSsQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fykgEPwd.jpg&ehk=sGlAUQQnOHQ38L8bd0iX4Ub3pNr%2fesC1H82s0fmw2PY%3d&risl=&pid=ImgRaw&r=0");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.contact{
+    min-height: 100vh;
+    padding: 150px;
+    text-align: center;
+    
+}
+.container{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.container h2{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+    
+    
+}
+
+.contact-wrapper{
+    text-align: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    padding:10px;
+    
+}
+.contact-form{
+    text-align: center;
+    
+}
+
+.form1{
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+input,textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color:#f8f9fa;
+    color: grey;
+}
+input:focus,
+textarea:focus{
+    outline:none;
+    box-shadow: 0 0 8px #bbb;
+}
+.signup{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.signup:hover{
+    background-color: green;
+}
+@media screen and(max-width: 600px){
+    .container{
+        padding: 20px;
+        align-items: center;
+        position:absolute;
+
+    }
+    .container h2{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 10px;
+        display: flex\;
+
+    }
+    .contact-form{
+        align-items: center;
+        text-align: center;
+        position: relative;
+       
+    }
+    .contact-wrapper{
+        align-items: center;
+        text-align: center;
+        display: grid;
+        position: relative;
+    }
+}
